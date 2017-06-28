@@ -1,11 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\savoa\engine\engine.csproj" />
-  </ItemGroup>
-
   <PropertyGroup>
     <TargetFramework>net46</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="engine">
+      <HintPath>..\..\savoa\engine\bin\Debug\engine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 
 </Project>
